@@ -3,7 +3,7 @@
 .header {
     display: flex;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 10px;
     margin-bottom: 1cm;
     overflow-x: auto; /* Activer le défilement horizontal si nécessaire */
     -webkit-overflow-scrolling: touch; /* Activer le défilement fluide sur iOS */

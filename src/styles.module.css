@@ -2,8 +2,11 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px;
+    margin-bottom: 1cm;
+    overflow-x: auto; /* Activer le défilement horizontal si nécessaire */
+    -webkit-overflow-scrolling: touch; /* Activer le défilement fluide sur iOS */
   }
   
   .tab {
@@ -11,17 +14,18 @@
     padding: 10px 20px;
     border-radius: 5px;
     background-color: #eaeaea;
+    margin-right: 10px; /* Espacement entre les onglets */
   }
   
   .tab:hover {
     background-color: #ccc;
   }
   
-  /* Styles spécifiques pour les écrans de taille moyenne */
-  @media (max-width: 768px) {
-    .header {
-      flex-direction: column;
-      align-items: center;
+  /* Réduire la taille des onglets sur les petits écrans */
+  @media (max-width: 480px) {
+    .tab {
+      padding: 8px 16px; /* Réduire la taille des onglets */
     }
   }
+  
   

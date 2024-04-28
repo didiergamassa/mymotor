@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import TabBar from './TabBar';
 import TabContent from './TabContent';
-import './App.css'; // Import des styles CSS pour le fichier App
+import './styles.module.css'; // Import des styles CSS pour le fichier App
 
 function App() {
   const [activeTab, setActiveTab] = useState('APEGG');

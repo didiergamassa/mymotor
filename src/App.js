@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// App.jsx
+import React, { useState } from 'react';
+import TabBar from './TabBar';
+import TabContent from './TabContent';
+import './App.css'; // Import des styles CSS pour le fichier App
 
 function App() {
+  const [activeTab, setActiveTab] = useState('APEGG');
+
+  const handleTabChange = (tabName) => {
+    setActiveTab(tabName);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      <TabBar activeTab={activeTab} onTabChange={handleTabChange} />
+      <TabContent activeTab={activeTab} />
     </div>
   );
 }

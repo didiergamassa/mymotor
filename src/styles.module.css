@@ -24,7 +24,7 @@
   /* Réduire la taille des onglets sur les petits écrans */
   @media (max-width: 480px) {
     .tab {
-      padding: 8px 16px; /* Réduire la taille des onglets */
+      padding: 4px 8px; /* Réduire la taille des onglets */
     }
   }
   

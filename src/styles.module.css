@@ -1,9 +1,11 @@
 /* styles.module.css */
 
+/* styles.module.css */
+
 .header {
     display: flex;
     justify-content: flex-start;
-    padding: 10px;
+    padding: 20px;
     margin-bottom: 1cm;
     overflow-x: auto; /* Activer le défilement horizontal si nécessaire */
     -webkit-overflow-scrolling: touch; /* Activer le défilement fluide sur iOS */
@@ -11,7 +13,7 @@
   
   .tab {
     cursor: pointer;
-    padding: 10px 20px;
+    padding: 10px 15px; /* Réduire légèrement la largeur des onglets */
     border-radius: 5px;
     background-color: #eaeaea;
     margin-right: 10px; /* Espacement entre les onglets */
@@ -24,7 +26,7 @@
   /* Réduire la taille des onglets sur les petits écrans */
   @media (max-width: 480px) {
     .tab {
-      padding: 4px 8px; /* Réduire la taille des onglets */
+      padding: 8px 12px; /* Réduire encore un peu la taille des onglets */
     }
   }
   

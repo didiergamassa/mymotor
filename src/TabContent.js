@@ -36,7 +36,7 @@ function TabContent({ activeTab }) {
                     <div className="tab-content-item">
                         <div className="Mission-title">Notre Mission</div>
                         <p>
-                            Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique,GARNER_Energies s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté.
+                            Au coeur d'un paysage en constante évolution,notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté.
                         </p>
                     </div>
                 );

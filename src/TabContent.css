@@ -12,17 +12,17 @@
   margin-top: 8cm; /* Marge de 10 cm par rapport au header */
 }
 
-.vision-title,
-.Engagement-title,
+.Vision-title,
+.Clients-title,
 .Mission-title,
-.Expertise-title {
+.Activités-title {
   font-size: 40px; /* Taille de police pour le titre */
   margin-bottom: 10px; /* Marge en bas pour séparer du contenu */
   text-align: left; /* Alignement du titre à gauche */
   align-self: flex-start; /* Alignement du titre à gauche */
 }
 
-.APEGG-title {
+.GARNER_Energies-title {
   font-size: 70px; /* Taille de police pour le titre */
   margin-bottom: 20px; /* Marge en bas pour séparer du contenu */
   text-align: left; /* Alignement du titre à gauche */
@@ -39,7 +39,7 @@
 }
 
 /* Styles spécifiques pour le contenu de l'onglet APEGG */
-.apegg-message {
+.GARNER_Energies-message {
   font-family: "Arial", sans-serif; /* Police spécifique */
   font-size: 40px; /* Taille de police spécifique */
   font-weight: bold; /* Texte en gras */

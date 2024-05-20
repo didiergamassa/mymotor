@@ -3,7 +3,7 @@ import React from 'react';
 import './TabBar.css';
 
 function TabBar({ activeTab, onTabChange }) {
-  const tabs = ['APEGG','Solutions IoT','Expertise','Mission','Engagement','Vision'];
+  const tabs = ['GARNER_Energies','Activités','Clients','Mission','Vision','Log-in'];
 
   return (
     <nav className="tab-bar">

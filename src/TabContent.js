@@ -9,7 +9,7 @@ function TabContent({ activeTab }) {
                 return (
                     <div className="tab-content-item">
                         <div className="GARNER_Energies">Société de conseil en Transformation Digitale et de Transition Ecologique Globale</div>
-                        <p className="apegg-message">Notre expertise est à disposition de vos problématiques écologiques afin de bâtir ensemble un monde plus vert.</p>
+                        <p className="GARNER_Energies-message">Notre expertise est à disposition de vos problématiques écologiques afin de bâtir ensemble un monde plus vert.</p>
                     </div>
                 );
             case 'Clients':
@@ -21,7 +21,7 @@ function TabContent({ activeTab }) {
             case 'Activités':
                 return (
                     <div className="tab-content-item">
-                        <div className="Expertise-title">Notre Expertise</div>
+                        <div className="Activités-title">Notre Expertise</div>
                         <p>
                             <strong>Transformation Digitale</strong>
                             <br />
@@ -52,7 +52,7 @@ function TabContent({ activeTab }) {
             case 'Log-IN':
                 return (
                     <div className="tab-content-item">
-                        <div className="Engagement-title">Notre Engagement</div>
+                        <div className="Log-In-title"> </div>
                         <p>
                            Redirection vers notre solution
                         </p>

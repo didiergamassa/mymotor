@@ -9,6 +9,7 @@
   flex-direction: column;
   align-items: flex-start; /* Alignement du contenu à gauche */
   justify-content: center; /* Centrage vertical */
+  margin-top: 8cm; /* Marge de 10 cm par rapport au header */
 }
 
 .vision-title,

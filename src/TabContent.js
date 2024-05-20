@@ -15,7 +15,7 @@ function TabContent({ activeTab }) {
             case 'Clients':
                 return (
                     <div className="tab-content-item">
-                      <p>Contenu de l'onglet Solutions</p>
+                      <p>Nos clients témoignent </p>
                     </div>
                 );
             case 'Activités':

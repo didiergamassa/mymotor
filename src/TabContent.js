@@ -36,7 +36,7 @@ function TabContent({ activeTab }) {
                     <div className="tab-content-item">
                         <div className="Mission-title">Notre Mission</div>
                         <p>
-                            Au coeur d'un paysage en constante évolution,notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté.
+                            Au coeur d'un paysage en constante évolution,notre mission est d'accompagner nos clients dans leurs parcours vers un avenir plus écologique, efficient et connecté.
                         </p>
                     </div>
                 );

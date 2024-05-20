@@ -3,13 +3,6 @@ import { useHistory } from 'react-router-dom';
 import './TabContent.css';
 
 function TabContent({ activeTab }) {
-    const history = useHistory();
-
-    const handleTabClick = () => {
-        // Rediriger vers la page d'accueil lors du clic sur l'onglet "Solutions"
-        history.push('/');
-    };
-
     const renderTabContent = () => {
         switch (activeTab) {
             case 'APEGG':
@@ -20,9 +13,11 @@ function TabContent({ activeTab }) {
                     </div>
                 );
             case 'Solutions':
-                // Redirection vers la page d'accueil lors du clic sur l'onglet "Solutions"
-                handleTabClick();
-                break;
+                return (
+                    <div className="tab-content-item">
+                      <p>Contenu de l'onglet Solutions</p>
+                    </div>
+                );
             case 'Expertise':
                 return (
                     <div className="tab-content-item">

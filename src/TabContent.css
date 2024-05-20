@@ -29,6 +29,11 @@
   align-self: flex-start; /* Alignement du titre à gauche */
 }
 
+.GARNER_Energies, .GARNER_Energies-message {
+  text-align: left; /* Alignement du texte à gauche */
+}
+
+
 .tab-content-item {
   font-size: 30px; /* Taille de police pour le contenu */
 }

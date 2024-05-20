@@ -12,13 +12,13 @@ function TabContent({ activeTab }) {
                         <p className="apegg-message">Notre expertise est à disposition de vos problématiques écologiques afin de bâtir ensemble un monde plus vert.</p>
                     </div>
                 );
-            case 'Solutions':
+            case 'Clients':
                 return (
                     <div className="tab-content-item">
                       <p>Contenu de l'onglet Solutions</p>
                     </div>
                 );
-            case 'Expertise':
+            case 'Activités':
                 return (
                     <div className="tab-content-item">
                         <div className="Expertise-title">Notre Expertise</div>
@@ -35,16 +35,7 @@ function TabContent({ activeTab }) {
                     <div className="tab-content-item">
                         <div className="Mission-title">Notre Mission</div>
                         <p>
-                            Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique, L'APEGG s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté.
-                        </p>
-                    </div>
-                );
-            case 'Engagement':
-                return (
-                    <div className="tab-content-item">
-                        <div className="Engagement-title">Notre Engagement</div>
-                        <p>
-                            Chez l'APEEG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
+                            Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique,GARNER_Energies s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté.
                         </p>
                     </div>
                 );
@@ -53,10 +44,8 @@ function TabContent({ activeTab }) {
                     <div className="tab-content-item">
                         <div className="vision-title">Notre Vision</div>
                         <p>
-                            <strong>Une Vision écologique enracinée dans l'Engagement </strong>
-                            <br />
-                            Chez GARNER_Energies, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. 
-                            <br />
+                             Chez GARNER_Energies, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. 
+                            
                        </p>
                     </div>
                 );

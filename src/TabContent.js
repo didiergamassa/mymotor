@@ -8,8 +8,8 @@ function TabContent({ activeTab }) {
             case 'GARNER_Energies':
                 return (
                     <div className="tab-content-item">
-                        <p> Société de conseil en Transformation Digitale et de Transition Ecologique Globale 
-                        </p> 
+                        <div className="GARNER_Energies-title">Société de conseil en Transformation Digitale et de Transition Ecologique Globale</div>
+                         
                         <p> Notre expertise est à disposition de vos problématiques écologiques afin de bâtir ensemble un monde plus vert.</p>
                     </div>
                 );

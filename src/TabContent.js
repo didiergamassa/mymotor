@@ -5,10 +5,10 @@ import './TabContent.css';
 function TabContent({ activeTab }) {
     const renderTabContent = () => {
         switch (activeTab) {
-            case 'APEGG':
+            case 'GARNER_Energies':
                 return (
                     <div className="tab-content-item">
-                        <div className="APEGG-title">Cabinet de conseil en Transformation Digitale et de Transition Ecologique Globale</div>
+                        <div className="GARNER_Energies">Société de conseil en Transformation Digitale et de Transition Ecologique Globale</div>
                         <p className="apegg-message">Notre expertise est à disposition de vos problématiques écologiques afin de bâtir ensemble un monde plus vert.</p>
                     </div>
                 );
@@ -53,13 +53,19 @@ function TabContent({ activeTab }) {
                     <div className="tab-content-item">
                         <div className="vision-title">Notre Vision</div>
                         <p>
-                            <strong>Une Vision écologique enracinée dans l'Engagement et initiée par le Docteur Alain Pensé GAMASSA</strong>
+                            <strong>Une Vision écologique enracinée dans l'Engagement </strong>
                             <br />
-                            Chez l'APEEG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
+                            Chez GARNER_Energies, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. 
                             <br />
-                            <strong>S'Engager dans une Quête Collective</strong>
-                            <br />
-                            Rejoignez-nous dans notre quête pour un avenir meilleur, où les valeurs d'innovation, de durabilité et d'engagement sont au cœur de chaque action. Ensemble, nous pouvons honorer l'héritage du Docteur Alain Pensé GAMASSA en laissant derrière nous un monde meilleur pour les générations futures.
+                       </p>
+                    </div>
+                );
+            case 'Log-IN':
+                return (
+                    <div className="tab-content-item">
+                        <div className="Engagement-title">Notre Engagement</div>
+                        <p>
+                           Redirection vers notre solution
                         </p>
                     </div>
                 );
